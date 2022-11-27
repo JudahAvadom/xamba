@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "XambaJS, A modern static websites generator",
   "author": "Gerset Linarez",
-  "main": "index.js",
+  "main": "lib/xamba.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,14 @@
   "license": "MIT",
   "bin": {
     "xamba": "./bin/xamba.js"
+  },
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "emittery": "^1.0.1",
+    "getopts": "^2.3.0",
+    "jsonfile": "^6.1.0",
+    "ts-node": "^10.9.1"
   }
 }
