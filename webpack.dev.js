@@ -1,8 +1,9 @@
-import merge from 'webpack-merge';
+import {merge} from 'webpack-merge';
 import path from 'path';
 import common from './webpack.common.js';
 import webpack from 'webpack';
 import postcssConfig from './postcss.config.js';
+
 export default merge(common, {
     entry: {
         app: [path.join(xamba.baseDir, 'lib', 'hot.js'), path.join(xamba.options.src, 'app')]
@@ -42,7 +43,7 @@ export default merge(common, {
         ]
     },
     plugins: [
-        new webpack.optimize.OccurrenceOrderPlugin(),
+        // new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
     ]
 });
