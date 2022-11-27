@@ -18,8 +18,14 @@
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
     "emittery": "^1.0.1",
+    "fs-extra": "^10.1.0",
     "getopts": "^2.3.0",
+    "inquirer": "^9.1.4",
     "jsonfile": "^6.1.0",
+    "ora": "^6.1.2",
+    "p-iteration": "^1.1.8",
+    "performance-now": "^2.1.0",
+    "pretty-ms": "^8.0.0",
     "ts-node": "^10.9.1"
   }
 }
