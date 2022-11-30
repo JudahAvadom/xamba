@@ -6,7 +6,7 @@ import postcssConfig from './postcss.config.js';
 
 export default merge(common, {
     entry: {
-        app: [path.join(xamba.baseDir, 'lib', 'hot.js'), path.join(xamba.options.src, 'app')]
+        app: [path.join(xamba.baseDir, 'lib', 'hot.js'), path.join(xamba.options.src, 'index')]
     },
     mode: 'development',
     devtool: 'eval-source-map',
